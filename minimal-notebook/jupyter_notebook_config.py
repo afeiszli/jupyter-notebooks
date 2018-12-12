@@ -1,6 +1,6 @@
 import os
 
-c.NotebookApp.ip = '0.0.0.0'
+c.NotebookApp.ip = '*'
 c.NotebookApp.port = 8080
 c.NotebookApp.open_browser = False
 
