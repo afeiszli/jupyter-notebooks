@@ -11,6 +11,6 @@ RUN yum -y install nodejs
 RUN pip install jupyterlab --upgrade
 RUN jupyter labextension install @jupyterlab/git
 RUN pip install jupyterlab-git
-RUN jupyter serverextension enable --py jupyterlab_git
+RUN jupyter serverextension enable --py jupyterlab_git --sys-prefix
 
 USER 1001
